@@ -1,9 +1,15 @@
 # Datastore Disk Free in MB with Volume Filter Inclusion Monitor
-## Tags : plugin   deprecated  
 
-## Category: plugin
+See http://uptimesoftware.github.io for more information.
 
-##Version Compatibility<br/>Module Name</th><th>up.time Monitoring Station Version</th>
+### Tags 
+ plugin   deprecated  
+
+### Category
+
+{ page.category }}
+
+### Version Compatibility
 
 
   
@@ -15,12 +21,20 @@
   
 
 
-### Description: This plug-in provides a solution to set thresholds on the actual number of megabytes of disk space available on any given file system. It will find the file system with the least available space and generate alerts using thresholds based on acceptable space remaining on a volume.
+### Description
+This plug-in provides a solution to set thresholds on the actual number of megabytes of disk space available on any given file system. It will find the file system with the least available space and generate alerts using thresholds based on acceptable space remaining on a volume.
 We recommend you use the built-in File System Capacity Monitor as it now has the same functionality.
 
-### Supported Monitoring Stations: 5.5
-### Supported Agents: None; no agent required
-### Installation Notes: <ol>
+
+### Supported Monitoring Stations
+
+5.5
+
+### Supported Agents
+None; no agent required
+
+### Installation Notes
+<ol>
 <li>Place jar file(s) in "/core" directory</li>
 </ol>
 
@@ -39,9 +53,18 @@ lax.class.path=...</p>
 </ol>
 
 
-### Dependencies: <p>None; Java core monitor</p>
 
-### Input Variables: * {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
-### Output Variables: * {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
-### Languages Used: * Java
+### Dependencies
+<p>None; Java core monitor</p>
+
+
+### Input Variables
+* {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
+
+### Output Variables
+
+* {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
+
+### Languages Used
+* Java
 
