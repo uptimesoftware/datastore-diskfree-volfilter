@@ -7,17 +7,17 @@ See http://uptimesoftware.github.io for more information.
 
 ### Category
 
-{ page.category }}
+plugin
 
 ### Version Compatibility
 
 
   
-    * Datastore Disk Free in MB with Volume Filter Inclusion Monitor 1.1 - 5.5
+* Datastore Disk Free in MB with Volume Filter Inclusion Monitor 1.1 - 5.5
   
 
   
-    * Datastore Disk Free in MB with Volume Filter Inclusion Monitor 1.0 - 5.4, 5.3
+* Datastore Disk Free in MB with Volume Filter Inclusion Monitor 1.0 - 5.4, 5.3
   
 
 
@@ -59,12 +59,17 @@ lax.class.path=...</p>
 
 
 ### Input Variables
+
 * {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
+
 
 ### Output Variables
 
+
 * {"Monitored volumes/file systems separated by commas (e.g. value"=>"c,f)"}
 
+
 ### Languages Used
+
 * Java
 
